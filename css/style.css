@@ -338,6 +338,8 @@ section {
   padding:1em 0;
   text-align:center;
   overflow:hidden;
+  font-family: "Satisfy", sans-serif;
+  font-size: 40px;
 }
 h2:before, h2:after {
   content:'';
