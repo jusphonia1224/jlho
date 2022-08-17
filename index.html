@@ -22,9 +22,9 @@
 			<nav id="navbar" class="navbar">
 				<ul>
 					<li><a class="nav-link scrollto active" href="#home">Home</a></li>
+					<li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
 					<li><a class="nav-link scrollto" href="#about">About</a></li>
 					<li><a class="nav-link scrollto" href="#resume">Resume</a></li>
-					<li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -38,6 +38,53 @@
 		</section>
 		
 		<main id="main">
+			<!-- Portfolio Section -->
+			<section id="portfolio" class="portfolio">
+				<div class="container">
+					<div class="section-title">
+						<h2> Portfolio </h2>
+					</div>
+					
+					<ul id="portfolio-flters" class="d-flex justify-content-center">
+						<li data-filter="*" class="filter-active">All</li>
+						<li data-filter=".filter-static">Static Map</li>
+						<li data-filter=".filter-dynamic">Dynamic Map</li>
+					</ul>
+					
+					<div class="row portfolio-container">
+						<div class="col-lg-4 col-md-6 portfolio-item filter-static">
+							 <div class="portfolio-img">
+								<img src="assets/Real Working Pattern in Hong Kong.png" class="img-fluid" alt="">
+							</div>
+							<div class="portfolio-info">
+								<h5>Real Working Pattern in <br/>Hong Kong</h5>
+								<a href="assets/Real Working Pattern in Hong Kong.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Real Working Pattern in Hong Kong"><i class="bi bi-plus"></i></a>
+							</div>
+						</div>
+						
+						<div class="col-lg-4 col-md-6 portfolio-item filter-static">
+							 <div class="portfolio-img">
+								<img src="assets/UCI international championship tour.png" class="img-fluid" alt="">
+							</div>
+							<div class="portfolio-info">
+								<h5>UCI International <br/>Championship Tour</h5>
+								<a href="assets/UCI international championship tour.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="UCI International Championship Tour"><i class="bi bi-plus"></i></a>
+							</div>
+						</div>
+						
+						<div class="col-lg-4 col-md-6 portfolio-item filter-dynamic">
+							 <div class="portfolio-img">
+								<img src="assets/Tile Set Design.png" class="img-fluid" alt="">
+							</div>
+							<div class="portfolio-info">
+								<h5>Mapbox Tile Set Design</h5>
+								<a href="https://api.mapbox.com/styles/v1/jlho/cl6995kxm000d14pd6nnpso8v.html?title=view&access_token=pk.eyJ1IjoiamxobyIsImEiOiJjbDY5OHQ4aGsxMnZyM3NvMXUxazI1OGNjIn0.sPLrxGAKAtkE40Bc0mog3g&zoomwheel=true&fresh=true#1.38/19.8/29.7" class="details-link" title="Mapbox Tile Set Design" target="_blank"><i class="bi bi-link"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>	
+			
 			<!-- About Section -->
 			<section id="about" class="about">
 				<div class="container">
@@ -295,52 +342,7 @@
 				</div>			
 			</section>		
 			
-			<!-- Portfolio Section -->
-			<section id="portfolio" class="portfolio">
-				<div class="container">
-					<div class="section-title">
-						<h2> Portfolio </h2>
-					</div>
-					
-					<ul id="portfolio-flters" class="d-flex justify-content-center">
-						<li data-filter="*" class="filter-active">All</li>
-						<li data-filter=".filter-static">Static Map</li>
-						<li data-filter=".filter-dynamic">Dynamic Map</li>
-					</ul>
-					
-					<div class="row portfolio-container">
-						<div class="col-lg-4 col-md-6 portfolio-item filter-static">
-							 <div class="portfolio-img">
-								<img src="assets/Real Working Pattern in Hong Kong.png" class="img-fluid" alt="">
-							</div>
-							<div class="portfolio-info">
-								<h5>Real Working Pattern in <br/>Hong Kong</h5>
-								<a href="assets/Real Working Pattern in Hong Kong.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Real Working Pattern in Hong Kong"><i class="bi bi-plus"></i></a>
-							</div>
-						</div>
-						
-						<div class="col-lg-4 col-md-6 portfolio-item filter-static">
-							 <div class="portfolio-img">
-								<img src="assets/UCI international championship tour.png" class="img-fluid" alt="">
-							</div>
-							<div class="portfolio-info">
-								<h5>UCI International <br/>Championship Tour</h5>
-								<a href="assets/UCI international championship tour.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="UCI International Championship Tour"><i class="bi bi-plus"></i></a>
-							</div>
-						</div>
-						
-						<div class="col-lg-4 col-md-6 portfolio-item filter-dynamic">
-							 <div class="portfolio-img">
-								<img src="assets/Tile Set Design.png" class="img-fluid" alt="">
-							</div>
-							<div class="portfolio-info">
-								<h5>Mapbox Tile Set Design</h5>
-								<a href="https://api.mapbox.com/styles/v1/jlho/cl6995kxm000d14pd6nnpso8v.html?title=view&access_token=pk.eyJ1IjoiamxobyIsImEiOiJjbDY5OHQ4aGsxMnZyM3NvMXUxazI1OGNjIn0.sPLrxGAKAtkE40Bc0mog3g&zoomwheel=true&fresh=true#1.38/19.8/29.7" class="details-link" title="Mapbox Tile Set Design" target="_blank"><i class="bi bi-link"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>	
+			
 		</main>	
 		
 		<footer id="footer">
